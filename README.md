@@ -20,7 +20,7 @@ juju status
 
 add model:
 ```bash
-juju add-model mymagma
+juju add-model development
 ```
 
 Remove controller from cluster:
