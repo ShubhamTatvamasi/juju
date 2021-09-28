@@ -1,5 +1,7 @@
 # juju
 
+https://juju.is/docs/sdk/dev-setup
+
 Check your kubernetes cluster name:
 ```bash
 kubectl config get-contexts
@@ -16,6 +18,10 @@ check status for controller:
 juju status
 ```
 
+add model:
+```bash
+juju add-model mymagma
+```
 
 Remove controller from cluster:
 ```bash
