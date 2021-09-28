@@ -1,6 +1,6 @@
 # juju
 
-check your kubernetes cluster name:
+Check your kubernetes cluster name:
 ```bash
 kubectl config get-contexts
 ```
@@ -10,3 +10,7 @@ Install Juju controller on your kubernetes cluster:
 juju bootstrap local
 ```
 
+Remove controller from cluster:
+```bash
+juju destroy-controller local
+```
