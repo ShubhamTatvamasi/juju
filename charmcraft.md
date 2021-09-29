@@ -48,7 +48,7 @@ build the charm:
 ```bash
 charmcraft pack
 
-# You have have to run this command before the above command.
+# You may have to run this command before the above command.
 lxd init --auto
 ```
 
