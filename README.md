@@ -23,7 +23,19 @@ add model:
 juju add-model development
 ```
 
+deploy the charm:
+```bash
+juju deploy ./hello-kubecon.charm --resource gosherve-image=jnsgruk/gosherve
+```
+
+watch juju status:
+```bash
+watch -n 1 juju status
+```
+
+
 Remove controller from cluster:
 ```bash
 juju destroy-controller mycloud
 ```
+
