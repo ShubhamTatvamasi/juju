@@ -18,9 +18,19 @@ check status for controller:
 juju status
 ```
 
-add model:
+add model (this will create new namespace):
 ```bash
 juju add-model development
+```
+
+list all models:
+```bash
+juju models
+```
+
+switch model:
+```bash
+juju switch development
 ```
 
 deploy the charm:
@@ -37,5 +47,10 @@ watch -n 1 juju status
 Remove controller from cluster:
 ```bash
 juju destroy-controller mycloud
+```
+
+juju debug logs:
+```bash
+juju debug-log
 ```
 

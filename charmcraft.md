@@ -52,3 +52,7 @@ charmcraft pack
 lxd init --auto
 ```
 
+```bash
+juju deploy ./hello-kubecon_ubuntu-20.04-amd64.charm --resource gosherve-image=jnsgruk/gosherve
+```
+
