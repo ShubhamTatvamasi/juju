@@ -2,6 +2,15 @@
 
 https://juju.is/docs/sdk/dev-setup
 
+Juju Dashboard tunnel:
+```bash
+ssh -L 17070:10.30.1.128:17070 -N ubuntu@192.168.21.2
+```
+
+https://localhost:17070/dashboard/
+
+---
+
 Check your kubernetes cluster name:
 ```bash
 kubectl config get-contexts
@@ -54,12 +63,4 @@ juju debug logs:
 juju debug-log
 ```
 
----
-
-Juju Dashboard tunnel:
-```bash
-ssh -L 17070:10.30.1.128:17070 -N ubuntu@192.168.21.2
-```
-
-https://localhost:17070/dashboard/
 
