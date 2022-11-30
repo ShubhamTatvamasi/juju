@@ -25,3 +25,7 @@ tar -xf nerdctl-1.0.0-linux-arm64.tar.gz
 rm nerdctl-1.0.0-linux-arm64.tar.gz
 ```
 
+Move binaries to the executable path:
+```bash
+sudo mv containerd-rootless-setuptool.sh containerd-rootless.sh nerdctl /usr/local/bin/
+```
