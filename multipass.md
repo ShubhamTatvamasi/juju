@@ -15,3 +15,13 @@ Delete VM:
 ```bash
 multipass delete --purge charm-dev
 ```
+
+### Containerd
+
+Download nerdctl tool for managing containerd images:
+```bash
+wget https://github.com/containerd/nerdctl/releases/download/v1.0.0/nerdctl-1.0.0-linux-arm64.tar.gz
+tar -xf nerdctl-1.0.0-linux-arm64.tar.gz
+rm nerdctl-1.0.0-linux-arm64.tar.gz
+```
+
