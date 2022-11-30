@@ -11,6 +11,11 @@ https://localhost:17070/dashboard/
 
 ---
 
+Setup a new charm development VM:
+```bash
+multipass launch charm-dev --name charm-dev
+```
+
 Check your kubernetes cluster name:
 ```bash
 kubectl config get-contexts
