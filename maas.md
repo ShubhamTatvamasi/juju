@@ -1,7 +1,7 @@
 # MAAS
 
 
-Add MAAS Cloud type and cloud name: `maas`:
+Add MAAS Cloud type `cloud type` and cloud name: `maas-cloud`:
 ```bash
 juju add-cloud
 ```
@@ -17,3 +17,7 @@ Setup maas cloud:
 juju bootstrap maas maasCloud
 ```
 
+Remove Cloud:
+```bash
+juju remove-cloud maas-cloud
+```
