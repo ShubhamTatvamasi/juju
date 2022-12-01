@@ -7,6 +7,11 @@ juju add-cloud
 ```
 > endpoint url: `http://192.168.20.23:5240/MAAS`
 
+Generate API key for MAAS:
+```bash
+sudo maas apikey --username=admin
+```
+
 Add credentials for maas:
 ```bash
 juju add-credential maas-cloud
@@ -15,11 +20,6 @@ juju add-credential maas-cloud
 Setup maas cloud:
 ```bash
 juju bootstrap maas-cloud
-```
-
-Generate API key for MAAS:
-```bash
-sudo maas apikey --username=admin
 ```
 
 Remove Cloud:
