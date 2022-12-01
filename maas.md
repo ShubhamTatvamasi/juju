@@ -17,6 +17,11 @@ Setup maas cloud:
 juju bootstrap maas-cloud
 ```
 
+Generate API key for MAAS:
+```bash
+sudo maas apikey --username=admin
+```
+
 Remove Cloud:
 ```bash
 juju remove-cloud maas-cloud
