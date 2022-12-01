@@ -1,7 +1,7 @@
 # MAAS
 
 
-Add MAAS Cloud type `cloud type` and cloud name: `maas-cloud`:
+Add MAAS Cloud type `maas` and cloud name: `maas-cloud`:
 ```bash
 juju add-cloud
 ```
