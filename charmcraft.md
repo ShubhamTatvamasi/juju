@@ -18,6 +18,11 @@ Pack your charm:
 charmcraft pack
 ```
 
+Deploy charm:
+```bash
+juju deploy ./mini_ubuntu-22.04-amd64.charm
+```
+
 ---
 
 install virtualenv:
