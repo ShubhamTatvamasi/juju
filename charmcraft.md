@@ -28,6 +28,11 @@ Check status:
 juju status
 ```
 
+Remove application:
+```bash
+juju remove-application mini
+```
+
 ---
 
 install virtualenv:
