@@ -14,7 +14,7 @@ juju add-credential maas-cloud
 
 Setup maas cloud:
 ```bash
-juju bootstrap maas maasCloud
+juju bootstrap maas-cloud
 ```
 
 Remove Cloud:
