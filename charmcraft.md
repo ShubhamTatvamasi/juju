@@ -9,8 +9,13 @@ sudo snap install charmcraft --classic
 
 start fresh operator:
 ```bash
-mkdir hello-kubecon; cd hello-kubecon
-charmcraft init
+mkdir mini; cd mini
+charmcraft init --author Shubham
+```
+
+Pack your charm:
+```bash
+charmcraft pack
 ```
 
 ---
