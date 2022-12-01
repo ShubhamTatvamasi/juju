@@ -9,7 +9,7 @@ juju add-cloud
 
 Add credentials for maas:
 ```bash
-juju add-credential maas
+juju add-credential maas-cloud
 ```
 
 Setup maas cloud:
