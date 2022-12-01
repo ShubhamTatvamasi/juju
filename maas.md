@@ -5,7 +5,7 @@ Add MAAS Cloud type `maas` and cloud name: `maas-cloud`:
 ```bash
 juju add-cloud
 ```
-> `http://192.168.20.23:5240/MAAS`
+> endpoint url: `http://192.168.20.23:5240/MAAS`
 
 Add credentials for maas:
 ```bash
