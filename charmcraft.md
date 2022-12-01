@@ -23,6 +23,11 @@ Deploy charm:
 juju deploy ./mini_ubuntu-22.04-amd64.charm
 ```
 
+Check status:
+```bash
+juju status
+```
+
 ---
 
 install virtualenv:
