@@ -2,6 +2,8 @@
 
 https://juju.is/docs/sdk/dev-setup
 
+https://juju.is/tutorials
+
 Juju Dashboard tunnel:
 ```bash
 ssh -L 17070:10.30.1.128:17070 -N ubuntu@192.168.21.2
