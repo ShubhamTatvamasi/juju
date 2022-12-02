@@ -13,6 +13,11 @@ https://localhost:17070/dashboard/
 
 ---
 
+Setup **ARM** architecture:
+```bash
+juju set-model-constraints arch=arm64
+```
+
 Check your kubernetes cluster name:
 ```bash
 kubectl config get-contexts
