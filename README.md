@@ -18,6 +18,11 @@ Setup **ARM** architecture:
 juju set-model-constraints arch=arm64
 ```
 
+List all Juju controllers:
+```bash
+juju controllers
+```
+
 Check your kubernetes cluster name:
 ```bash
 kubectl config get-contexts
